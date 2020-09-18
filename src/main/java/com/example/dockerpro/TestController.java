@@ -11,7 +11,7 @@ public class TestController {
     @GetMapping("hello")
     public String testMethod(){
 
-        return "Hello from rest Controller";
+        return "Hello from ECS by CodePipeline";
     }
 
 
